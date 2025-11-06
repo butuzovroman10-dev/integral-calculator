@@ -2,10 +2,6 @@
 from flask import Flask, request, jsonify
 import sympy as sp
 import numpy as np
-#import matplotlib
-matplotlib.use('Agg')
-import matplotlib.pyplot as plt
-import numpy as np
 import time
 from flask import Flask, render_template, request, send_file
 import os
